@@ -1,0 +1,99 @@
+/* === CONTAINER XL === */
+
+.container-xl {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* === FLEXBOX === */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* --- Alignement axe principal --- */
+.around {
+    justify-content: space-around;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}
+
+
+
+/* === COLONNES XL === */
+
+.col-xl-1 {
+    width:65px ;
+    flex-basis: 65px;
+}
+
+.col-xl-2 {
+    width:160px ;
+    flex-basis: 160px;
+}
+
+.col-xl-3 {
+    width:255px ;
+    flex-basis: 255px;
+}
+
+.col-xl-4 {
+    width:350px ;
+    flex-basis: 350px;
+}
+
+.col-xl-5 {
+    width:445px ;
+    flex-basis: 445px;
+}
+
+.col-xl-6 {
+    width:540px ;
+    flex-basis: 540px;
+}
+
+.col-xl-7 {
+    width:635px ;
+    flex-basis: 635px;
+}
+
+.col-xl-8 {
+    width:730px ;
+    flex-basis: 730px;
+}
+
+.col-xl-9 {
+    width:825px ;
+    flex-basis: 825px;
+}
+
+.col-xl-10 {
+    width:920px ;
+    flex-basis: 920px;
+}
+
+.col-xl-11 {
+    width:1015px ;
+    flex-basis: 1015px;
+}
+
+.col-xl-12 {
+    width:1110px ;
+    flex-basis: 1110px;
+}
+
+
+
+
+
+

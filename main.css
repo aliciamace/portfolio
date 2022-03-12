@@ -1,0 +1,239 @@
+/* Taille des boites */
+
+*{
+    box-sizing: border-box;
+}
+
+/* navigations */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* marges de navigateur */
+body {
+    margin: 0;
+}
+
+/* --- VARIABLES --- */
+
+:root {
+    --gris: #797979;
+    --beige: #E6DACD;
+}
+
+
+/* --- TEXTES --- */
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.titre-2 {
+    text-transform: uppercase;
+    color: var(--gris);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.topbar-nav {
+    margin-right: 65px;
+}
+
+.topbar-nav a,
+.topbar-nav a:visited {
+    color: var(--gris);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.topbar-nav a:hover,
+.topbar-nav a:focus,
+.topbar-nav a:active {
+    color: #fff;
+
+}
+
+/* paragraphes */
+p {
+    color: var(--gris);
+    font-size: 1.100rem;
+    font-weight: 500;
+    line-height: 1,25;
+    text-align: center;
+   
+
+}
+
+.logo {
+    width: 70px;
+    cursor: pointer;
+}
+
+.navigation {
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+/* -------------------------------------------- */
+
+/* --- HEADER + NAVIGATION --- */
+
+
+.header-cover {
+    background-color: var(--beige);
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    height: 900px;
+}
+
+.text-header {
+    position: relative;
+    color: #fff;
+    font-style: italic;
+    font-weight: 650;
+    font-size: 1.300rem;
+    text-align: center;
+}
+
+.header-info {
+    align-items: center;
+}
+
+
+.illustration {
+    width: 350px;
+}
+
+.fleche {
+    width: 1200px;
+    padding-right: 70px;
+}
+
+
+/* frise */
+
+.frise {
+    margin-top: 50px;
+}
+
+/* experiences */
+
+.experiences {
+    margin-top: 100px;
+}
+
+.expe {
+    background-color: var(--gris);
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+.titre-expe {
+    color: var(--beige);
+    font-size: 15px;
+}
+
+.expli-expe {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.expli-expe li {
+    font-size: 14px;
+    list-style:circle;
+}
+
+
+
+/* competences */
+
+
+.compe {
+    background-color: var(--beige);
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-top: 60px;
+}
+
+.compe img {
+    margin-top: 40px;
+    height: 60px;
+
+}
+
+/* projets */
+.projets-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    margin-top: 60px;
+
+}
+
+
+.image {
+    max-width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+  
+
+.image:hover {
+    opacity: 0.3;
+  }
+  
+
+
+/* footer */
+
+footer {
+    background-color: var(--beige);
+    height: 250px;
+    padding-top: 60px;
+    margin-top: 60px;
+}
+
+.trait {
+    border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.mentions {
+    color: #fff;
+}
+
+.contactez {
+    color: #fff;
+    font-size: 1,3rem;
+    line-height: 1,5;
+}
+
+/* minature */
+
+
+.mini {
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.ex {
+    width: 1300px;
+    text-align: center;
+    margin:auto;
+    display:flex;
+}
+
